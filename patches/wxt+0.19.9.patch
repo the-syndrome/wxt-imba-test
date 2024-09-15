@@ -1,0 +1,14 @@
+diff --git a/node_modules/wxt/dist/builtin-modules/unimport.mjs b/node_modules/wxt/dist/builtin-modules/unimport.mjs
+index 1115e55..804256c 100644
+--- a/node_modules/wxt/dist/builtin-modules/unimport.mjs
++++ b/node_modules/wxt/dist/builtin-modules/unimport.mjs
+@@ -41,7 +41,8 @@ export function vitePlugin(unimport) {
+     ".ts",
+     ".tsx",
+     ".vue",
+-    ".svelte"
++    ".svelte",
++    ".imba"
+   ]);
+   return {
+     name: "wxt:unimport",
