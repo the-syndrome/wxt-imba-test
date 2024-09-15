@@ -25,6 +25,10 @@ rm package-lock.json
 
 ## Development
 
+```sh
+npm run dev
+```
+
 ### Create a new patch
 
 Change module in `./node_modules/wxt`
